@@ -88,7 +88,6 @@ public class CalculatorManagerServiceImpl implements ICalculatorManagerService {
      * @param calculator 计算器对象
      * @param operateValue 被操作数
      * @param operatorEnum 操作类型
-     * @return @see main.java.com.hetufei.command.Command
      */
     private Command getCommand(Calculator calculator,BigDecimal operateValue, OperatorEnum operatorEnum){
         switch (operatorEnum) {
